@@ -11,8 +11,8 @@ router.get('/', function(req, res, next) {
 
 router.get("/", controllerlogin)
 
-router.get("/", controllerperfil)
+router.get("/perfil", controllerperfil)
 
-router.get("/", controllerregistro)
+router.get("/registron", controllerregistro)
 
 module.exports = router;
