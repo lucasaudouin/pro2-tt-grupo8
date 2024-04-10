@@ -1,4 +1,4 @@
-exports.controllerperfil = (req,res) => {
+exports.loginPagina = (req,res) => {
     res.send("login")
     
 };

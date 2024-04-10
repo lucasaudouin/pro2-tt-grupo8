@@ -4,15 +4,10 @@ const controllerperfil = require("../controllers/perfilcontrollers");
 const controllerlogin = require("../controllers/logincontroller")
 const controllerregistro = require("../controllers/registrocontroller")
 
+router.get("/", controllerlogin.loginPagina);
 
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+router.get("/perfil", controllerperfil.perfilPagina);
 
-router.get("/", controllerlogin)
-
-router.get("/perfil", controllerperfil)
-
-router.get("/registron", controllerregistro)
+router.get("/registro", controllerregistro.registroPagina);
 
 module.exports = router;
