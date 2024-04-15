@@ -1,8 +1,9 @@
 const zapas = require('../db/data')
  
-const indexController ={
+const indexController = {
     index: function (req, res) {
-        res.render("index")
+        const nombresProductos = zapas.productos.map(producto => producto.nombre);
+        res.render("index", { productos: nombresProductos });
     }
 }
 
