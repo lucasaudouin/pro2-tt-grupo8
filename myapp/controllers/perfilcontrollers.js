@@ -1,9 +1,9 @@
-const zapas = require ("../db/data")
+const zapas = require("../db/data")
 
-const perfilPagina ={
-    index: function (req, res) {
-        res.send(zapas.productos)
+const perfilContoller ={
+    profile: function (req, res) {
+        res.render("profile")
     }
 }
 
-module.exports = perfilPagina
+module.exports = perfilContoller;
