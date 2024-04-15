@@ -1,6 +1,2 @@
-const sneakers = require ("../db")
+const sneakers = require ("../db/data")
 
-exports.productoPagina = (req,res) => {
-    res.send("productos")
-    
-};

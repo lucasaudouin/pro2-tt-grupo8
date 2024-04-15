@@ -1,11 +1,9 @@
-const sneakers = require ("../db")
-
-const indexController = {
-    index: function(req, res){
-        res.send(sneakers.index)
+const zapas = require('../db/data')
+ 
+const indexController ={
+    index: function (req, res) {
+        res.send(zapas.productos)
     }
 }
 
-module.exports = indexController;
-
- 
+module.exports = indexController

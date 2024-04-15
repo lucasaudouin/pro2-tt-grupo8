@@ -1,6 +1,5 @@
-// db/module.js
 
-const sneakers = {
+const zapatillas = {
     usuario: {
       email: "pepito@udesa.edu.ar",
       usuario: "pepito",
@@ -148,5 +147,5 @@ const sneakers = {
     ]
   };
   
-  module.exports = sneakers;
+  module.exports = zapatillas;
   

@@ -1,10 +1,9 @@
-const sneakers = require ("../db")
+const zapas = require ("../db/data")
 
-let profilecontroller = 
+const perfilPagina ={
+    index: function (req, res) {
+        res.send(zapas.productos)
+    }
+}
 
-exports.perfilPagina = (req,res) => {
-    res.send("perfil")
-    
-};
-
-module.exports = profilecontroller
+module.exports = perfilPagina
