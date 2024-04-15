@@ -1,7 +1,4 @@
-let indexcontroller = 
-exports.loginPagina = (req,res) => {
+exports.indexPagina = (req,res) => {
     res.send("login")
     
 };
-
-module.exports = indexcontroller
