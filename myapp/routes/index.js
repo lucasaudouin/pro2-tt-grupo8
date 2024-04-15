@@ -1,8 +1,8 @@
 var express = require('express');
 var router = express.Router();
-const controllerindex = require("../controllers/indexcontroller")
+const indexController = require("../controllers/indexcontroller")
 
-router.get("/", controllerindex.indexPagina);
+router.get("/", indexController.indexPagina);
 
 
 
