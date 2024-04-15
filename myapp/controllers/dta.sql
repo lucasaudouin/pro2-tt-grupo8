@@ -1,0 +1,32 @@
+CREATE SCHEMA db_proyecto;
+
+USE db_proyecto;
+
+CREATE TABLE Usuarios (
+/* Nombrecolumna   Tipodato     Restricciones */
+    id INT  UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+    usuarios_id INT,
+    email VARCHAR(250) NOT NULL,
+    contraseña VARCHAR(250) NOT NULL,
+    fecha DATE NOT NULL,
+    dni INT NOT NULL,
+    foto_perfil VARCHAR(250) NOT NULL,
+    createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    deletedAt TIMESTAMP NULL ON UPDATE CURRENT_TIMESTAMP
+     
+);
+
+
+CREATE TABLE productos (
+/* Nombrecolumna   Tipodato     Restricciones */ 
+id INT PRIMARY KEY AUTO_INCREMENT,
+productos_id INT,
+nombre_foto VARCHAR(250) NOT NULL,
+nombre_prod VARCHAR(250) NOT NULL, 
+descripcion_prod VARCHAR(250) NOT NULL,
+createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+deletedAt TIMESTAMP NULL ON UPDATE CURRENT_TIMESTAMP
+);
+
