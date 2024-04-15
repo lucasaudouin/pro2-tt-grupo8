@@ -3,3 +3,5 @@ var router = express.Router();
 const productocontroller = require("../controllers/productocontroller")
 
 router.get("/add", productocontroller.productoPagina);
+
+module.exports = router;
