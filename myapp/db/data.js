@@ -8,7 +8,7 @@ const zapatillas = {
     },
     productos: [
       {
-        imagen: "imag",
+        imagen: "../images/products/nikejordan.jpg" ,
         nombre: "Nike Jordan",
         descripcion: "Zapatillas Nike Air Jordan",
         comentarios: [
@@ -25,7 +25,7 @@ const zapatillas = {
         ]
       },
       {
-        imagen: "/img/nike_sb.jpg",
+        imagen: "../images/products/sb.jpg",
         nombre: "Nike SB",
         descripcion: "Zapatillas Nike SB",
         comentarios: [
@@ -42,7 +42,7 @@ const zapatillas = {
         ]
       },
       {
-        imagen: "/img/adidas_samba.jpg",
+        imagen: "../images/products/samba.jpg",
         nombre: "Adidas Samba",
         descripcion: "Zapatillas Adidas Samba",
         comentarios: [
@@ -59,7 +59,7 @@ const zapatillas = {
         ]
       },
       {
-        imagen: "/img/adidas_gazzelle.jpg",
+        imagen: "../images/products/gazzelle.jpg",
         nombre: "Adidas Gazelle",
         descripcion: "Zapatillas Adidas Gazelle",
         comentarios: [
@@ -76,7 +76,7 @@ const zapatillas = {
         ]
       },
       {
-        imagen: "/img/nike_air_force_1.jpg",
+        imagen: "../images/products/airforce1.jpg",
         nombre: "Nike Air Force 1",
         descripcion: "Zapatillas Nike Air Force 1",
         comentarios: [
@@ -93,7 +93,7 @@ const zapatillas = {
         ]
       },
       {
-        imagen: "/img/new_balance_2002r.jpg",
+        imagen: "../images/products/newb.jpg",
         nombre: "New Balance 2002r",
         descripcion: "Zapatillas New Balance 2002r",
         comentarios: [
@@ -110,7 +110,7 @@ const zapatillas = {
         ]
       },
       {
-        imagen: "/img/adidas_superstar.jpg",
+        imagen: "../images/products/superstar.jpg",
         nombre: "Adidas Superstar",
         descripcion: "Zapatillas Adidas Superstar",
         comentarios: [
@@ -127,7 +127,7 @@ const zapatillas = {
         ]
       },
       {
-        imagen: "/img/nike_air_max.jpg",
+        imagen: "../images/products/airmax.jpg",
         nombre: "Nike Air Max",
         descripcion: "Zapatillas Nike Air Max",
         comentarios: [
