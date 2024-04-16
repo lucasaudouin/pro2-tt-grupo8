@@ -8,7 +8,7 @@ const zapatillas = {
     },
     productos: [
       {
-        imagen: "../images/products/nikejordan.jpg" ,
+        imagen: "../images/products/jordan 1.webp" ,
         nombre: "Nike Jordan",
         descripcion: "Zapatillas Nike Air Jordan",
         comentarios: [
@@ -22,11 +22,12 @@ const zapatillas = {
             texto: "Me encanta el diseño de estas zapatillas.",
             imagenPerfil: "/img/usuario2.jpg"
           }
+
         ]
       },
       {
-        imagen: "../images/products/sb.jpg",
-        nombre: "Nike SB",
+        imagen: "../images/products/nike ari max plus.webp",
+        nombre: "Nike Air Max Plus",
         descripcion: "Zapatillas Nike SB",
         comentarios: [
           {
@@ -39,10 +40,11 @@ const zapatillas = {
             texto: "¡Las quiero en todos los colores!",
             imagenPerfil: "/img/usuario4.jpg"
           }
+
         ]
       },
       {
-        imagen: "../images/products/samba.jpg",
+        imagen: "../images/products/samba.webp",
         nombre: "Adidas Samba",
         descripcion: "Zapatillas Adidas Samba",
         comentarios: [
@@ -56,10 +58,11 @@ const zapatillas = {
             texto: "Perfectas para el día a día.",
             imagenPerfil: "/img/usuario6.jpg"
           }
+
         ]
       },
       {
-        imagen: "../images/products/gazzelle.jpg",
+        imagen: "../images/products/gazelle.webp",
         nombre: "Adidas Gazelle",
         descripcion: "Zapatillas Adidas Gazelle",
         comentarios: [
@@ -68,15 +71,17 @@ const zapatillas = {
             texto: "¡Son muy cómodas y tienen un estilo retro genial!",
             imagenPerfil: "/img/usuario7.jpg"
           },
+
           {
             usuario: "Usuario8",
             texto: "Me encanta el diseño clásico de estas zapatillas.",
             imagenPerfil: "/img/usuario8.jpg"
           }
+
         ]
       },
       {
-        imagen: "../images/products/airforce1.jpg",
+        imagen: "../images/products/airforce.webp",
         nombre: "Nike Air Force 1",
         descripcion: "Zapatillas Nike Air Force 1",
         comentarios: [
@@ -90,10 +95,11 @@ const zapatillas = {
             texto: "Muy cómodas para usar todo el día.",
             imagenPerfil: "/img/usuario10.jpg"
           }
+
         ]
       },
       {
-        imagen: "../images/products/newb.jpg",
+        imagen: "../images/products/200r.webp",
         nombre: "New Balance 2002r",
         descripcion: "Zapatillas New Balance 2002r",
         comentarios: [
@@ -107,10 +113,11 @@ const zapatillas = {
             texto: "Me encanta el diseño moderno.",
             imagenPerfil: "/img/usuario12.jpg"
           }
+
         ]
       },
       {
-        imagen: "../images/products/superstar.jpg",
+        imagen: "../images/products/super.webp",
         nombre: "Adidas Superstar",
         descripcion: "Zapatillas Adidas Superstar",
         comentarios: [
@@ -124,10 +131,11 @@ const zapatillas = {
             texto: "Son muy versátiles, puedo combinarlas con cualquier outfit.",
             imagenPerfil: "/img/usuario14.jpg"
           }
+
         ]
       },
       {
-        imagen: "../images/products/airmax.jpg",
+        imagen: "../images/products/airma.webp",
         nombre: "Nike Air Max",
         descripcion: "Zapatillas Nike Air Max",
         comentarios: [
@@ -141,8 +149,46 @@ const zapatillas = {
             texto: "Me encanta la tecnología de amortiguación de estas zapatillas.",
             imagenPerfil: "/img/usuario16.jpg"
           }
+
         ]
       },
+      {
+        imagen: "../images/products/asics.webp",
+        nombre: "ASICS GEL-NYC",
+        descripcion: "Zapatillas ASICS GEL-NYC",
+        comentarios: [
+          {
+            usuario: "Usuario17",
+            texto: "Un icono de la moda urbana, nunca pasan de moda.",
+            imagenPerfil: "/img/usuario17.jpg"
+          },
+          {
+            usuario: "Usuario18",
+            texto: "Me encanta su versatilidad, puedo usarlas con cualquier look.",
+            imagenPerfil: "/img/usuario18.jpg"
+          }
+
+        ]
+      },
+      {
+        imagen: "../images/products/puma.webp",
+        nombre: "Puma RS-X",
+        descripcion: "Zapatillas Puma RS-X",
+        comentarios: [
+          {
+            usuario: "Usuario19",
+            texto: "Estas Puma son tremendas, el diseño retro me mata.",
+            imagenPerfil: "/img/usuario19.jpg"
+          },
+
+          {
+            usuario: "Usuario20",
+            texto: "Son muy cómodas para usar durante todo el día, ¡las recomiendo!",
+            imagenPerfil: "/img/usuario20.jpg"
+          }
+
+        ]
+      }
     ]
   };
   
