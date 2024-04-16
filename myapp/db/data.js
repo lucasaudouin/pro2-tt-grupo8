@@ -4,7 +4,8 @@ const zapatillas = {
       usuario: "pepito",
       contraseña: "123",
       fechaNacimiento: "1990-01-01",
-      numeroDocumento: 46123804
+      numeroDocumento: 46123804,
+      imagenPerfil: "/images/users/bob.png"
     },
     productos: [
       {
@@ -15,12 +16,12 @@ const zapatillas = {
           {
             usuario: "Theo",
             texto: "¡Estas zapatillas son increíbles!",
-            imagenPerfil: "/img/theo1.jpg"
+            imagenPerfil: "/images/users/bob.png"
           },
           {
             usuario: "Usuario2",
             texto: "Me encanta el diseño de estas zapatillas.",
-            imagenPerfil: "/img/usuario2.jpg"
+            imagenPerfil: "/images/users/bob.png"
           }
 
         ]
@@ -33,12 +34,12 @@ const zapatillas = {
           {
             usuario: "Usuario3",
             texto: "Son muy cómodas para patinar.",
-            imagenPerfil: "/img/usuario3.jpg"
+            imagenPerfil: "/images/users/bob.png"
           },
           {
             usuario: "Usuario4",
             texto: "¡Las quiero en todos los colores!",
-            imagenPerfil: "/img/usuario4.jpg"
+            imagenPerfil: "/images/users/bob.png"
           }
 
         ]
@@ -51,12 +52,12 @@ const zapatillas = {
           {
             usuario: "Usuario5",
             texto: "Clásicas y elegantes, me encantan.",
-            imagenPerfil: "/img/usuario5.jpg"
+            imagenPerfil: "/images/users/bob.png"
           },
           {
             usuario: "Usuario6",
             texto: "Perfectas para el día a día.",
-            imagenPerfil: "/img/usuario6.jpg"
+            imagenPerfil: "/images/users/bob.png"
           }
 
         ]
@@ -69,13 +70,13 @@ const zapatillas = {
           {
             usuario: "Usuario7",
             texto: "¡Son muy cómodas y tienen un estilo retro genial!",
-            imagenPerfil: "/img/usuario7.jpg"
+            imagenPerfil: "/images/users/bob.png"
           },
 
           {
             usuario: "Usuario8",
             texto: "Me encanta el diseño clásico de estas zapatillas.",
-            imagenPerfil: "/img/usuario8.jpg"
+            imagenPerfil: "/images/users/bob.png"
           }
 
         ]
@@ -88,12 +89,12 @@ const zapatillas = {
           {
             usuario: "Usuario9",
             texto: "Son un clásico que nunca pasa de moda.",
-            imagenPerfil: "/img/usuario9.jpg"
+            imagenPerfil: "/images/users/bob.png"
           },
           {
             usuario: "Usuario10",
             texto: "Muy cómodas para usar todo el día.",
-            imagenPerfil: "/img/usuario10.jpg"
+            imagenPerfil: "/images/users/bob.png"
           }
 
         ]
@@ -106,12 +107,12 @@ const zapatillas = {
           {
             usuario: "Usuario11",
             texto: "Estas New Balance son impresionantes",
-            imagenPerfil: "/img/usuario11.jpg"
+            imagenPerfil: "/images/users/bob.png"
           },
           {
             usuario: "Usuario12",
             texto: "Me encanta el diseño moderno.",
-            imagenPerfil: "/img/usuario12.jpg"
+            imagenPerfil: "/images/users/bob.png"
           }
 
         ]
@@ -124,12 +125,12 @@ const zapatillas = {
           {
             usuario: "Usuario13",
             texto: "Un clásico.",
-            imagenPerfil: "/img/usuario13.jpg"
+            imagenPerfil: "/images/users/bob.png"
           },
           {
             usuario: "Usuario14",
             texto: "Son muy versátiles, puedo combinarlas con cualquier outfit.",
-            imagenPerfil: "/img/usuario14.jpg"
+            imagenPerfil: "/images/users/bob.png"
           }
 
         ]
@@ -142,12 +143,12 @@ const zapatillas = {
           {
             usuario: "Usuario15",
             texto: "¡Son increíblemente cómodas y tienen un diseño unico!",
-            imagenPerfil: "/img/usuario15.jpg"
+            imagenPerfil: "/images/users/bob.png"
           },
           {
             usuario: "Usuario16",
             texto: "Me encanta la tecnología de amortiguación de estas zapatillas.",
-            imagenPerfil: "/img/usuario16.jpg"
+            imagenPerfil: "/images/users/bob.png"
           }
 
         ]
@@ -160,12 +161,12 @@ const zapatillas = {
           {
             usuario: "Usuario17",
             texto: "Un icono de la moda urbana, nunca pasan de moda.",
-            imagenPerfil: "/img/usuario17.jpg"
+            imagenPerfil: "/images/users/bob.png"
           },
           {
             usuario: "Usuario18",
             texto: "Me encanta su versatilidad, puedo usarlas con cualquier look.",
-            imagenPerfil: "/img/usuario18.jpg"
+            imagenPerfil: "/images/users/bob.png"
           }
 
         ]
@@ -178,13 +179,13 @@ const zapatillas = {
           {
             usuario: "Usuario19",
             texto: "Estas Puma son tremendas, el diseño retro me mata.",
-            imagenPerfil: "/img/usuario19.jpg"
+            imagenPerfil: "/images/users/bob.png"
           },
 
           {
             usuario: "Usuario20",
             texto: "Son muy cómodas para usar durante todo el día, ¡las recomiendo!",
-            imagenPerfil: "/img/usuario20.jpg"
+            imagenPerfil: "/images/users/bob.png"
           }
 
         ]

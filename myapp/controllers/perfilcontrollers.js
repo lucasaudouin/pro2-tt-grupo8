@@ -1,5 +1,6 @@
 const zapatillas = require('../db/data')
 const zapas = require("../db/data")
+const usuario = zapatillas.usuario;
 
 const perfilContoller = {
     profile: function (req, res) {
@@ -20,7 +21,8 @@ const perfilContoller = {
             descripcion: descripcionZapa,
             comentarios: comentarios,
             imagen: imagenes,
-            id: id
+            id: id,
+            usuario: usuario,
         });
     },
     edit: function(req, res) {
@@ -29,9 +31,5 @@ const perfilContoller = {
 };
 
 module.exports = perfilContoller;
-
-
-
-
 
 module.exports = perfilContoller;
