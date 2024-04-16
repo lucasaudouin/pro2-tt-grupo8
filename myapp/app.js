@@ -8,6 +8,10 @@ const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const productoRouter = require("./routes/producto");
 const perfilRouter = require("./routes/profile");
+const cargarProducto = require("./routes/cargarProducto");
+
+
+
 
 var app = express();
 
@@ -22,9 +26,10 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-
+app.use('/cargarproductos', cargarProducto);
 app.use("/product", productoRouter);
 app.use("/perfil", perfilRouter)
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
