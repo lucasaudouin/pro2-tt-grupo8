@@ -3,7 +3,8 @@ const zapas = require("../db/data")
 const usuario = zapatillas.usuario;
 
 const perfilContoller = {
-    profile: function (req, res) {
+    profile: function (req, res, next) {
+        let idUsuario = req.params.id
         let nombreZapa = [];
         let descripcionZapa = [];
         let comentarios = [];

@@ -1,5 +1,6 @@
 const zapatillas = {
     usuario: {
+    
       email: "pepito@udesa.edu.ar",
       usuario: "pepito",
       contraseña: "123",
@@ -9,6 +10,7 @@ const zapatillas = {
     },
     productos: [
       {
+        
         imagen: "../images/products/jordan 1.webp" ,
         nombre: "Nike Jordan",
         descripcion: "Zapatillas Nike Air Jordan",
@@ -16,17 +18,20 @@ const zapatillas = {
           {
             usuario: "Theo",
             texto: "¡Estas zapatillas son increíbles!",
-            imagenPerfil: "/images/users/bob.png"
+            imagenPerfil: "/images/users/bob.png",
+            
           },
           {
             usuario: "Usuario2",
             texto: "Me encanta el diseño de estas zapatillas.",
-            imagenPerfil: "/images/users/bob.png"
+            imagenPerfil: "/images/users/bob.png",
+            
           }
 
         ]
       },
       {
+  
         imagen: "../images/products/nike ari max plus.webp",
         nombre: "Nike Air Max Plus",
         descripcion: "Zapatillas Nike SB",
@@ -45,6 +50,7 @@ const zapatillas = {
         ]
       },
       {
+      
         imagen: "../images/products/samba.webp",
         nombre: "Adidas Samba",
         descripcion: "Zapatillas Adidas Samba",
@@ -63,6 +69,7 @@ const zapatillas = {
         ]
       },
       {
+        
         imagen: "../images/products/gazelle.webp",
         nombre: "Adidas Gazelle",
         descripcion: "Zapatillas Adidas Gazelle",
@@ -82,6 +89,7 @@ const zapatillas = {
         ]
       },
       {
+        
         imagen: "../images/products/airforce.webp",
         nombre: "Nike Air Force 1",
         descripcion: "Zapatillas Nike Air Force 1",
@@ -100,6 +108,7 @@ const zapatillas = {
         ]
       },
       {
+      
         imagen: "../images/products/200r.webp",
         nombre: "New Balance 2002r",
         descripcion: "Zapatillas New Balance 2002r",
@@ -118,6 +127,7 @@ const zapatillas = {
         ]
       },
       {
+      
         imagen: "../images/products/super.webp",
         nombre: "Adidas Superstar",
         descripcion: "Zapatillas Adidas Superstar",
@@ -136,6 +146,7 @@ const zapatillas = {
         ]
       },
       {
+        
         imagen: "../images/products/airma.webp",
         nombre: "Nike Air Max",
         descripcion: "Zapatillas Nike Air Max",
@@ -154,6 +165,7 @@ const zapatillas = {
         ]
       },
       {
+        
         imagen: "../images/products/asics.webp",
         nombre: "ASICS GEL-NYC",
         descripcion: "Zapatillas ASICS GEL-NYC",
@@ -172,6 +184,7 @@ const zapatillas = {
         ]
       },
       {
+        
         imagen: "../images/products/puma.webp",
         nombre: "Puma RS-X",
         descripcion: "Zapatillas Puma RS-X",
