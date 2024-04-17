@@ -27,9 +27,14 @@ const perfilContoller = {
     },
     edit: function(req, res) {
         res.render("profile-edit");
+    },
+    login: function(req, res){
+        res.render("login");
+    },
+    register: function(req, res){
+        res.render("register");
     }
-};
+}; 
 
 module.exports = perfilContoller;
 
-module.exports = perfilContoller;
