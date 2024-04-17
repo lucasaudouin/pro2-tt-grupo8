@@ -16,18 +16,29 @@
 			</div>
 			<!-- Show the "ultimos" products -->
 			<div class="col-12"> 
-				<form action="/pro2-tt-grupo8/myapp/routes/index.js" method="get"> <!-- get de /user/profile-->
-					<label for="Perfil">Perfil: </label>
-					<input type="email" id="usuario" name="usuario" required>
-					<br>
-					<label for="Contraseña">Contraseña: </label>
-					<input type="password" id="Contraseña" name="Contraseña" required>
-					<br>
-					<label for="Recordarme">Recordarme: </label>
-					<input type="checkbox" id="Recordarme" name="Recordarme" required>
-					<br><br>
-					<input type="submit" value="Inciar Sesión">
-				</form>
+				<form action="/" method="GET">
+					<div class="formGroup">
+					  <label for="email">Email:</label>
+					  <input type="email" id="email" name="email" class="formInput" required>
+					</div>
+					<div class="formGroup">
+					  <label for="usuario">Usuario:</label>
+					  <input type="text" id="usuario" name="usuario" class="formInput" required>
+					</div>
+					<div class="formGroup">
+					  <label for="contraseña">Contraseña:</label>
+					  <input type="password" id="contraseña" name="contraseña" class="formInput" required>
+					</div>
+					<div class="form-group">
+					  <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+					  <input type="date" id="fechaNacimiento" name="fechaNacimiento" class="formInput" required>
+					</div>
+					<div class="formGroup">
+					  <label for="documento">Nro de Documento:</label>
+					  <input type="number" id="documento" name="nroDocumento" class="formInput" required>
+					</div>
+					<button type="submit" class="enviar">Editar Perfil</button>
+				  </form>		
 			</div>
 
 
