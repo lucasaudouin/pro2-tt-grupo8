@@ -4,5 +4,6 @@ const productContoller = require('../controllers/productocontroller');
 
 router.get('/', productContoller.product);
 
+
 module.exports = router;
 
