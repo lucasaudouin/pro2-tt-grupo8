@@ -26,14 +26,14 @@ const perfilContoller = {
             usuario: usuario,
         });
     },
-    edit: function(req, res) {
-        res.render("profile-edit");
+    edit: function(req, res, next) {
+        res.render("profile-edit", {title: "Profile Edit", usuario: zapatillas.usuario});
     },
-    login: function(req, res){
-        res.render("login");
+    login: function(req, res, next){
+        res.render("login", {title: "Login"});
     },
-    register: function(req, res){
-        res.render("register");
+    register: function(req, res, next){
+        res.render("register", {title:"Register"});
     }
 }; 
 

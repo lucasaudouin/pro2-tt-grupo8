@@ -12,7 +12,7 @@
 				</div>
 	
 				<div class="col-7 col-md-6">
-					<form action="/product" method="GET" class="search-form">
+					<form action="index/search-results" method="GET" class="search-form">
 						<input type="text" name="search" placeholder="Buscar productos, marcas y más" class="search-form_input">
 						<button type="submit" class="search-form_button"><i class="fas fa-search"></i></button>
 					</form>
@@ -38,13 +38,17 @@
 				</ul>
 	
 				<ul class="right-navbar">
-					<li><a href="#" id="<%= usuario.usuario %>"><%= usuario.usuario %> <i class="fas fa-user"></i></a></li>
+					<li><a href="/" id="<%= usuario.usuario %>">
+						<%= usuario.usuario %> 
+						<i class="fas fa-user">
+
+						</i></a></li>
 
 					<li>
-						<form action="/index" method="post">
+						<a href="/index">
 							<button class="logout" type="submit">
 								Cerrar sesión <i class="fas fa-sign-in-alt"></i>
-							</button>
+							</a>
 						</form>
 					</li>
 					<!-- Solo deslogueado <li>

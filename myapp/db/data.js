@@ -11,7 +11,7 @@ const zapatillas = {
     productos: [
       {
         
-        imagen: "../images/products/jordan 1.webp" ,
+        imagen: "../images/products/jordan1.webp" ,
         nombre: "Nike Jordan",
         descripcion: "Zapatillas Nike Air Jordan",
         comentarios: [
@@ -32,7 +32,7 @@ const zapatillas = {
       },
       {
   
-        imagen: "../images/products/nike ari max plus.webp",
+        imagen: "../images/products/nikearimaxplus.webp",
         nombre: "Nike Air Max Plus",
         descripcion: "Zapatillas Nike SB",
         comentarios: [

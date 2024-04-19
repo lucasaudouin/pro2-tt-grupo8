@@ -22,73 +22,41 @@
 	<div class="container products-wrapper">
 		<div class="d-flex align-items-center">
 			<h2 class="products-title">ASICS® GEL-NYC</h2> 
-			<p class="product-detail-description">
-				<a href="/index">Editar</a>
+			<p class="product-edit">
+				<a class="product-edit" href="/cargarproductos">Editar producto</a>
 			</p>
 		</div>
-		<div class="product-detail">
-			<div class="row">
-				<article class="col-12 col-lg-8 product-detail-info">
-					<img src="../images/products/asics.webp" alt="ASICS NYC" class="product-detail-img">
-					<p class="product-detail-description">
-                        Mantente por delante de tu competencia con ASICS Gel NYC. Confeccionados con una parte superior de malla y gamuza inspirada en los GEL-NIMBUS 3 y MC-PLUS V, estos zapatos ofrecen un ajuste transpirable y una sensación duradera. La entresuela premium con tecnología GEL en el antepié y el antepié mejora la absorción de impactos, mientras que la herramienta GEL-CUMULUS 16 mejora la flexibilidad y la eficiencia en cada zancada. Experimenta una comodidad infinita al correr con las ASICS Gel NYC.
-                    </p>
-				</article>
-				<div class="col-12 col-lg-4">
-					<section class="comments">
+	</div>
+	<div class="product-detail">
+		<div class="row">
+			<article class="col-12 col-lg-8 product-detail-info">
+				<img src="<%= productos[0].imagen %>" alt="" class="product-detail-img">
+				<p class="product-detail-description"> <%= productos[0].descripcion %></p>
+			</article>
+			<div class="col-12 col-lg-4">
+				<section class="comentarios">
+					<% for (let index = 0; index < productos[0].comentarios.length; index++) { %>
 						<article>
-							<img src="https://via.placeholder.com/35" alt="">
-							<div class="data">
-								<p class="user">
-								<strong> <a href="profile.html">Nombre usuario: </a> </strong>
-								 Texto del comentario que escribió el usuario Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora doloribus enim aspernatur fugit corrupti suscipit sit dolore magnam, praesentium explicabo inventore molestias facilis labore. Fugit ipsa mollitia odit inventore consequuntur.</p>
+							<img src=" <%= productos[0].comentarios[index].imagenPerfil %>" alt="">
+							<div class="info">
+								<p class="usuario" >
+									<strong><a href="/"><%= productos[0].comentarios[index].usuario %></a></strong>
+									<%= productos[0].comentarios[index].texto %>
+								</p>
 							</div>
 						</article>
-						<article>
-							<img src="https://via.placeholder.com/35" alt="">
-							<div class="data">
-								<p class="user">
-									<strong> <a href="profile.html">Nombre usuario: </a> </strong>
-									Texto del comentario que escribió el usuario Lorem ipsum dolor sit amet consectetur.</p>
-							</div>
-						</article>
-						<article>
-							<img src="https://via.placeholder.com/35" alt="">
-							<div class="data">
-								<p class="user">
-									<strong> <a href="profile.html">Nombre usuario: </a> </strong>
-									Texto del comentario que escribió el usuario Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									</p>
-							</div>
-						</article>
-						<article>
-							<img src="https://via.placeholder.com/35" alt="">
-							<div class="data">
-								<p class="user">
-									<strong> <a href="profile.html">Nombre usuario: </a> </strong>
-									Texto del comentario que escribió el usuario Lorem ipsum dolor sit amet.</p>
-							</div>
-						</article>
-						<article>
-							<img src="https://via.placeholder.com/35" alt="">
-							<div class="data">
-								<p class="user">
-									<strong> <a href="profile.html">Nombre usuario: </a> </strong>
-									Texto del comentario que escribió el usuario Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Tempora doloribus enim aspernatur fugit corrupti suscipit sit dolore</p>
-							</div>
-						</article>
-
-					</section>
-					<form class="form" action="" method="POST">
-						<input class="form-input" type="text" value="" placeholder="Agregar comentario">
-						<button type="submit" class="buy-now-button">AGREGAR COMENTARIO</button>
-					</form>
-					<hr>
-				</div>
+					<% } %>
+				</section>
+	
+				<form class="form" action="/product" method="get">
+					<input class="form-input" type="text" value="" placeholder="Agregar comentario">
+					<button type="submit" class="buy-now-button">AGREGAR COMENTARIO</button>
+				</form>
+				<hr>
 			</div>
 		</div>
 	</div>
+	
 	<!-- /product detail -->
 
 	<%- include("./partials/footer")%>

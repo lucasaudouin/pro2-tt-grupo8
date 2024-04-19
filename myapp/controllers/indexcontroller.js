@@ -23,7 +23,10 @@ const indexController = {
             imagen: imagenes,
             id: id
          });
-    }
+    },
+    search: function(req,res, next){
+        res.render("search-results", {title:"Search results", productos: zapatillas.productos})
+         }
 }
 
 module.exports = indexController
