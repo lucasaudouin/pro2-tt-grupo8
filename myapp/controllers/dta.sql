@@ -53,34 +53,34 @@ VALUES
 
 INSERT INTO productos (productos_id, nombre_foto, nombre_prod, descripcion_prod)
 VALUES 
-(1, '../images/products/jordan 1.webp', 'Nike Jordan', 'Zapatillas Nike Air Jordan');
+(1, '../images/products/jordan1.webp', 'Nike Jordan', 'Zapatillas Nike Air Jordan');
 INSERT INTO productos (productos_id, nombre_foto, nombre_prod, descripcion_prod)
 VALUES
-(2, '../images/products/nike SB.webp', 'Nike SB', 'Zapatillas Nike SB');
+(2, '../images/products/nike B.webp', 'Nike SB', 'Zapatillas Nike SB');
 INSERT INTO productos (productos_id, nombre_foto, nombre_prod, descripcion_prod)
 VALUES
-(3, '../images/products/nike ari max plus.webp', 'Nike Air Max Plus', 'Zapatillas Nike Air Max Plus');
+(3, '../images/products/nikearimaxplus.webp', 'Nike Air Max Plus', 'Zapatillas Nike Air Max Plus');
 INSERT INTO productos (productos_id, nombre_foto, nombre_prod, descripcion_prod)
 VALUES
-(4, '../images/products/nike ari max plus black.webp', 'Nike Air Max Plus Black', 'Zapatillas Nike SB');
+(4, '../images/products/nikearimaxplusblack.webp', 'Nike Air Max Plus Black', 'Zapatillas Nike SB');
 INSERT INTO productos (productos_id, nombre_foto, nombre_prod, descripcion_prod)
 VALUES
-(5, '../images/products/nike ari max plus blue.webp', 'Nike Air Max Plus Blue', 'Zapatillas Nike SB');
+(5, '../images/products/nikearimaxplusblue.webp', 'Nike Air Max Plus Blue', 'Zapatillas Nike SB');
 INSERT INTO productos (productos_id, nombre_foto, nombre_prod, descripcion_prod)
 VALUES
-(6, '../images/products/adidas samba.webp', 'Adidas Samba', 'Zapatillas Adidas Samba');
+(6, '../images/products/adidassamba.webp', 'Adidas Samba', 'Zapatillas Adidas Samba');
 INSERT INTO productos (productos_id, nombre_foto, nombre_prod, descripcion_prod)
 VALUES
 (7, '../images/products/adidas gazelle.webp', 'Adidas Gazelle', 'Zapatillas Adidas Gazelle');
 INSERT INTO productos (productos_id, nombre_foto, nombre_prod, descripcion_prod)
 VALUES
-(8, '../images/products/on running .webp', 'On Running', 'Zapatillas On Running');
+(8, '../images/products/onrunning.webp', 'On Running', 'Zapatillas On Running');
 INSERT INTO productos (productos_id, nombre_foto, nombre_prod, descripcion_prod)
 VALUES
-(9, '../images/products/nike airforce one.webp', 'Nike Airforce 1', 'Zapatillas Nike Airforce One');
+(9, '../images/products/nikeairforceone.webp', 'Nike Airforce 1', 'Zapatillas Nike Airforce One');
 INSERT INTO productos (productos_id, nombre_foto, nombre_prod, descripcion_prod)
 VALUES
-(10, '../images/products/puma palermo.webp', 'Puma Palermo', 'Zapatillas Puma Palermo');
+(10, '../images/products/pumapalermo.webp', 'Puma Palermo', 'Zapatillas Puma Palermo');
 
 
 INSERT INTO comentarios (productoId, usuarioId, comentario)
